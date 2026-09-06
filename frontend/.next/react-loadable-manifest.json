@@ -1,0 +1,26 @@
+{
+  "app\\admin\\dashboard\\page.tsx -> @/components/GovernmentRiskMap": {
+    "id": "app\\admin\\dashboard\\page.tsx -> @/components/GovernmentRiskMap",
+    "files": [
+      "static/chunks/_app-pages-browser_components_GovernmentRiskMap_tsx.js"
+    ]
+  },
+  "app\\farmer\\dashboard\\page.tsx -> @/components/FarmDisplayMap": {
+    "id": "app\\farmer\\dashboard\\page.tsx -> @/components/FarmDisplayMap",
+    "files": [
+      "static/chunks/_app-pages-browser_components_FarmDisplayMap_tsx.js"
+    ]
+  },
+  "components\\FarmDisplayMap.tsx -> leaflet": {
+    "id": "components\\FarmDisplayMap.tsx -> leaflet",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_leaflet_dist_leaflet-src_js.js"
+    ]
+  },
+  "components\\GovernmentRiskMap.tsx -> leaflet": {
+    "id": "components\\GovernmentRiskMap.tsx -> leaflet",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_leaflet_dist_leaflet-src_js.js"
+    ]
+  }
+}
