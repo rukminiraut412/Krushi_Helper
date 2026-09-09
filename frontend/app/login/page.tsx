@@ -46,9 +46,9 @@ function LoginForm() {
       }
     } catch (err: any) {
       const msg = err.message || "";
-      if (msg.toLowerCase().includes("failed to fetch") || msg.toLowerCase().includes("networkerror")) {
-        setError("Unable to connect to backend server at http://localhost:8000. Please verify the backend is running.");
-      } else {
+     if (msg.toLowerCase().includes("failed to fetch") || msg.toLowerCase().includes("networkerror")) {
+         setError("Unable to connect to the backend server. Please try again.");
+    } else {
         setError(msg || "Invalid mobile number or password.");
       }
     } finally {
